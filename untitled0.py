@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 25 21:27:26 2020
-
-@author: Surya
-"""
-
 
 import csv
 import pandas as pd
