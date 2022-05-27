@@ -9,7 +9,7 @@ import random
 
 app = flask.Flask(__name__, template_folder='templates')
 
-df2 = pd.read_csv('./model/tmdb.csv')
+df2 = pd.read_csv('tmdb.csv')
 count = CountVectorizer(stop_words='english')
 count_matrix = count.fit_transform(df2['soup'])
 
